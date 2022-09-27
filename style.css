@@ -48,6 +48,7 @@ button {
   border-style: none;
   border-radius: 20px;
   padding: 10px 20px 10px 20px;
+  transition: opacity 0.5s;
 }
 
 .button-left {
@@ -55,14 +56,12 @@ button {
 }
 
 .button-left:hover {
-  background-color: #fdeb89;
-  color: black;
-  transition: background-color 0.5s, color 0.5s;
+  opacity: 0.8;
   cursor: pointer;
 }
 
 .button-left:active {
-  background-color: #f0f8ff;
+  opacity: 0.5;
 }
 
 .button-right {
@@ -70,14 +69,12 @@ button {
 }
 
 .button-right:hover {
-  background-color: #ff9912;
-  color: black;
-  transition: background-color 0.5s, color 0.5s;
+  opacity: 0.8;
   cursor: pointer;
 }
 
 .button-right:active {
-  background-color: #f0f8ff;
+  opacity: 0.5;
 }
 
 .section-2 {
@@ -320,7 +317,7 @@ footer {
   }
 
   button {
-    width: 100%;
+    width: 50%;
   }
 
   .button-left {
